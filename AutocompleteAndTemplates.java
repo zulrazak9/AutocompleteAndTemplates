@@ -28,6 +28,7 @@ public class AutocompleteAndTemplates {
         AutocompleteAndTemplates main = new AutocompleteAndTemplates();
         main.input();
         System.out.println("Nama : " + main.nama);
+        System.out.println(" Tahun Lahir ");
         System.out.println("Umur Anda : "+ main.HitungUmur(main.tahunlahir));
 
     }
