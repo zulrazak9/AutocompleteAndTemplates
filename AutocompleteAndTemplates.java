@@ -24,9 +24,10 @@ public class AutocompleteAndTemplates {
 
 
     public static void main(String[] args) {
+
         AutocompleteAndTemplates main = new AutocompleteAndTemplates();
         main.input();
-        System.out.println(main.HitungUmur(main.tahunlahir));
+        System.out.println("Umur Anda : "+ main.HitungUmur(main.tahunlahir));
 
     }
 }
