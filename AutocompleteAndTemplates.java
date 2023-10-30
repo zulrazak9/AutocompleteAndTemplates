@@ -1,12 +1,15 @@
 import com.sun.tools.javac.Main;
 
 import java.util.Scanner ;
+
 public class AutocompleteAndTemplates {
+    /**
+     *class
+     * class autocompleteandtemplates*/
     public String nama ;
     public int tanggallahir ;
     public int bulanlahir ;
     public int tahunlahir ;
-
  public void input (){
          Scanner scanner = new Scanner(System.in);
          System.out.print("Masukan nama : ");
@@ -18,6 +21,10 @@ public class AutocompleteAndTemplates {
          System.out.print("Masukan Tahun Lahir : ");
          tahunlahir = scanner.nextInt();
      }
+     /**@param tahun
+      * parameter tahun lahir user
+      *@return
+      *akan mengembalikan nilai umur*/
      public int HitungUmur (int tahun){
              return  2023 - tahun ;
              }
